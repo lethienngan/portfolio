@@ -9,6 +9,7 @@ const data = [
         id: 0,
         image: IMG1,
         title: 'Analog Clock',
+        description: 'Pure HTML/CSS and Vanilla Javascript',
         github: 'https://github.com/lethienngan/Analog-Clock',
         demo: 'https://lethienngan.github.io/Analog-Clock/',
     },
@@ -16,6 +17,7 @@ const data = [
         id: 1,
         image: IMG2,
         title: 'Dice Roller',
+        description: 'React, Redux toolkit, Redux persist, Material UI',
         github: 'https://github.com/lethienngan/DiceRoller',
         demo: 'https://lethienngan-diceroller.netlify.app/',
     },
@@ -23,6 +25,7 @@ const data = [
         id: 2,
         image: IMG3,
         title: 'Task Manager',
+        description: 'React, Redux toolkit, Redux persist, Ant Design',
         github: 'https://github.com/lethienngan/TaskManager',
         demo: 'https://lethienngan-taskmanager.netlify.app/',
     }
@@ -41,6 +44,7 @@ const Portfolio = () => {
                                 <img src={e.image} alt="" />
                             </div>
                             <h3>{e.title}</h3>
+                            <h5>{e.description}</h5>
                             <div className="portfolio__item-cta">
                                 <a href={e.github} className='btn'>Github</a>
                                 <a href={e.demo} className='btn btn-primary' target='_blank'>Live Demo</a>

@@ -2,6 +2,44 @@ import React from 'react'
 import { BsPatchCheckFill } from 'react-icons/bs'
 import './experience.css'
 
+const data = {
+    frontend: [
+        {
+            name: 'HTML/CSS',
+            description: 'Intermediate'
+        },
+        {
+            name: 'Javascript',
+            description: 'Intermediate (ES6)'
+        },
+        {
+            name: 'React@ver17',
+            description: 'React HOOK & Redux'
+        },
+        {
+            name: 'UI framework',
+            description: 'MaterialUI v4, AntDesign (basic)'
+        },
+    ],
+    backend: [
+        {
+            name: 'NodeJS',
+            description: 'using ExpressJS framework'
+        },
+        {
+            name: 'ExpressJS',
+            description: 'Intermediate'
+        },
+        {
+            name: 'MongoDB',
+            description: 'Mongoose lib for backend'
+        },
+        {
+            name: 'SQL',
+            description: 'Basic syntax for querying data'
+        },
+    ],
+}
 const Experience = () => {
     return (
         <section id="experience">
@@ -13,68 +51,36 @@ const Experience = () => {
                 <div className="experience__frontend">
                     <h3>Frontend Development</h3>
                     <div className="experience__content">
-                        <article className="experience__details">
-                            <BsPatchCheckFill className='experience__icon' />
-                            <div>
-                                <h4>HTML/CSS</h4>
-                                <small>Intermediate</small>
-                            </div>
-                        </article>
-                        <article className="experience__details">
-                            <BsPatchCheckFill className='experience__icon' />
-                            <div>
-                                <h4>Javascript</h4>
-                                <small>Intermediate (ES6)</small>
-                            </div>
-                        </article>
-                        <article className="experience__details">
-                            <BsPatchCheckFill className='experience__icon' />
-                            <div>
-                                <h4>React@ver17</h4>
-                                <small>React HOOK & Redux</small>
-                            </div>
-                        </article>
-                        <article className="experience__details">
-                            <BsPatchCheckFill className='experience__icon' />
-                            <div>
-                                <h4>UI framework</h4>
-                                <small>MaterialUI v4, AntDesign, ... (just basic)</small>
-                            </div>
-                        </article>
+                        {
+                            data.frontend.map((e, i) => (
+                                <article className="experience__details" key={i}>
+                                    <BsPatchCheckFill className='experience__icon' />
+                                    <div>
+                                        <h4>{e.name}</h4>
+                                        <small>{e.description}</small>
+                                    </div>
+                                </article>
+                            ))
+                        }
                     </div>
                 </div>
 
                 <div className="experience__backend">
                     <h3>Backend Development</h3>
                     <div className="experience__content">
-                        <article className="experience__details">
-                            <BsPatchCheckFill className='experience__icon' />
-                            <div>
-                                <h4>NodeJS</h4>
-                                <small>Using ExpressJS Framework</small>
-                            </div>
-                        </article>
-                        <article className="experience__details">
-                            <BsPatchCheckFill className='experience__icon' />
-                            <div>
-                                <h4>ExpressJS</h4>
-                                <small>Intermediate (CRUD & auth)</small>
-                            </div>
-                        </article>
-                        <article className="experience__details">
-                            <BsPatchCheckFill className='experience__icon' />
-                            <div>
-                                <h4>MongoDB</h4>
-                                <small>Mongoose lib for backend</small>
-                            </div>
-                        </article>
-                        <article className="experience__details">
-                            <BsPatchCheckFill className='experience__icon' />
-                            <div>
-                                <h4>SQL</h4>
-                                <small>Basic syntax for querying data</small>
-                            </div>
-                        </article>
+                        {
+                            data.backend.map((e, i) => (
+                                <article className="experience__details" key={i}>
+                                    <BsPatchCheckFill className='experience__icon' />
+                                    <div>
+                                        <h4>{e.name}</h4>
+                                        <small>{e.description}</small>
+                                    </div>
+                                </article>
+                            ))
+                        }
+
+
                     </div>
                 </div>
             </div>

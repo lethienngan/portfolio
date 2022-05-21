@@ -3,16 +3,16 @@ import { AiOutlineCheck } from 'react-icons/ai'
 import './services.css'
 
 const data = {
-    development: ['Visual Code (with extesions)', 'Eclipse IDE', 'Robo3T', 'Postman', 'Thunder Client', 'Redux devTool', 'Beyond Compare', 'Git', 'Jira'],
+    development: ['Visual Code (with extesions)', 'Eclipse IDE', 'Robo3T', 'Postman', 'Thunder Client', 'Redux devTool', 'Beyond Compare', 'Git', 'Jira', 'npm'],
     AutomatedTesting: ['IBM RTRT (Rational Real Time Test)', 'Cantata', 'Internal testing tool'],
     libraryFramework: ['Proframe C', 'Adobe Flex', 'React', 'React Router', 'Redux toolkit', 'Redux Persist', 'ExpressJS', 'Handlebar (SSR)', 'Axios', 'jwt-decode', 'SwiperJS', 'EmailJS', 'Mongoose', 'dotenv', 'jsonwebtoken', 'bcrypt'],
 }
 const Services = () => {
     return (
         <section id="services">
-            <h5>What Tools I used</h5>
+            <h5>What tools I used</h5>
             <h5><small>Not good at all - still google & stackoverflow everything</small></h5>
-            <h2>Tools</h2>
+            <h2>Tools & Utilities</h2>
 
             <div className="container services__container">
                 <article className="service">
