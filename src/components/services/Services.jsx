@@ -5,7 +5,7 @@ import './services.css'
 const data = {
     development: ['Visual Code (with extesions)', 'Eclipse IDE', 'Robo3T', 'Postman', 'Thunder Client', 'Redux devTool', 'Beyond Compare', 'Git', 'Jira', 'npm'],
     AutomatedTesting: ['IBM RTRT (Rational Real Time Test)', 'Cantata', 'Internal testing tool'],
-    libraryFramework: ['Proframe C', 'Adobe Flex', 'React', 'React Router', 'Redux toolkit', 'Redux Persist', 'ExpressJS', 'Handlebar (SSR)', 'Axios', 'jwt-decode', 'SwiperJS', 'EmailJS', 'Mongoose', 'dotenv', 'jsonwebtoken', 'bcrypt'],
+    libraryFramework: ['Proframe C', 'Adobe Flex', 'React (CSR)', 'React Router', 'Redux toolkit', 'Redux Persist', 'ExpressJS', 'Handlebar (SSR)', 'Axios', 'jwt-decode', 'SwiperJS', 'EmailJS', 'Mongoose', 'dotenv', 'jsonwebtoken', 'bcrypt'],
 }
 const Services = () => {
     return (
