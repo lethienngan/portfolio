@@ -37,7 +37,7 @@ header {
 
 /* ************************* ME - PROFILE PIC ************************* */
 .me {
-    background: linear-gradient(var(--color-white), transparent);
+    background: linear-gradient(var(--color-bg-variant), transparent);
     width: 22rem;
     height: 30rem;
     position: absolute;
