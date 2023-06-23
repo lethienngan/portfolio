@@ -28,7 +28,7 @@ const data = {
 		"ExpressJS",
 		"AWS-sdk",
 		"GoogleAPI",
-		"Axios (",
+		"Axios",
 		"Mongoose",
 		"jsonwebtoken",
 		"bcrypt",
