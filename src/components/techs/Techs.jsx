@@ -13,6 +13,8 @@ const data = {
 		"Git",
 		"Jira",
 		"Npm",
+		"PM2",
+		"Caddy",
 	],
 	AutomatedTesting: [
 		"IBM RTRT (Rational Real Time Test)",
@@ -54,47 +56,6 @@ const Techs = () => {
 				<Tech data={data.development} name={"Development"} />
 				<Tech data={data.AutomatedTesting} name={"Automated Testing"} />
 				<Tech data={data.libraryFramework} name={"Library & Frameworkd"} />
-				{/* <article className="tech">
-					<div className="tech__head">
-						<h3>Development</h3>
-					</div>
-					<ul className="tech__list">
-						{data.development.map((e, i) => (
-							<li key={i}>
-								<AiOutlineCheck className="tech__list-icon" />
-								<p>{e}</p>
-							</li>
-						))}
-					</ul>
-				</article>
-
-				<article className="tech">
-					<div className="tech__head">
-						<h3>Automated Testing</h3>
-					</div>
-					<ul className="tech__list">
-						{data.AutomatedTesting.map((e, i) => (
-							<li key={i}>
-								<AiOutlineCheck className="tech__list-icon" />
-								<p>{e}</p>
-							</li>
-						))}
-					</ul>
-				</article>
-
-				<article className="tech">
-					<div className="tech__head">
-						<h3>Library & Framework</h3>
-					</div>
-					<ul className="tech__list">
-						{data.libraryFramework.map((e, i) => (
-							<li key={i}>
-								<AiOutlineCheck className="tech__list-icon" />
-								<p>{e}</p>
-							</li>
-						))}
-					</ul>
-				</article> */}
 			</div>
 		</section>
 	);
