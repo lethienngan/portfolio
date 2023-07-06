@@ -36,12 +36,7 @@ const data = {
 		"bcrypt",
 		"... etc",
 	],
-	platform: [
-		"AWS(...list all of features here)",
-		"Ubuntu instance from AWS",
-		"Hubspot (...list all of features here)",
-		"Google API((...list all of features here))",
-	],
+	platform: ["AWS", "Linux-Ubuntu", "Hubspot", "Google API"],
 };
 const Techs = () => {
 	return (
@@ -53,6 +48,7 @@ const Techs = () => {
 			<h2>Tools & Utilities</h2>
 
 			<div className="container techs__container">
+				<Tech data={data.platform} name={"Platforms"} />
 				<Tech data={data.development} name={"Development"} />
 				<Tech data={data.AutomatedTesting} name={"Automated Testing"} />
 				<Tech data={data.libraryFramework} name={"Library & Frameworkd"} />
