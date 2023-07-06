@@ -2,11 +2,11 @@ import React from "react";
 import { BsPatchCheckFill } from "react-icons/bs";
 import "../Experiences.css";
 
-function Experience({ data }) {
+function Experience({ data, name }) {
 	console.log(data[0]?.description);
 	return (
 		<div className="experience__frontend">
-			<h3>Platform</h3>
+			<h3>{name}</h3>
 			<div className="experience__content">
 				{data.map((e, i) => (
 					<article className="experience__details" key={i}>

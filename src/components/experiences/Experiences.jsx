@@ -62,9 +62,9 @@ const Experiences = () => {
 			<h2>My Knowledge</h2>
 
 			<div className="container experience__container">
-				<Experience data={data.platform} />
-				<Experience data={data.frontend} />
-				<Experience data={data.backend} />
+				<Experience data={data.platform} name = {'Platform'} />
+				<Experience data={data.frontend} name = {'Frontend'}/>
+				<Experience data={data.backend} name = {'Backend'}/>
 			</div>
 		</section>
 	);
