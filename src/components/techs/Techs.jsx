@@ -48,7 +48,7 @@ const Techs = () => {
 			<h2>Tools & Utilities</h2>
 
 			<div className="container techs__container">
-				<Tech data={data.platform} name={"Platforms"} />
+				{/* <Tech data={data.platform} name={"Platforms"} /> */}
 				<Tech data={data.development} name={"Development"} />
 				<Tech data={data.AutomatedTesting} name={"Automated Testing"} />
 				<Tech data={data.libraryFramework} name={"Library & Frameworkd"} />

@@ -39,6 +39,20 @@ const data = {
 			description: "postgreSQL",
 		},
 	],
+	platform: [
+		{
+			name: "AWS",
+		},
+		{
+			name: "Linux-Ubuntu",
+		},
+		{
+			name: "Hubspot",
+		},
+		{
+			name: "Google API",
+		},
+	],
 };
 const Experience = () => {
 	return (
@@ -47,6 +61,22 @@ const Experience = () => {
 			<h2>My Knowledge</h2>
 
 			<div className="container experience__container">
+				<div className="experience__frontend">
+					<h3>Platform</h3>
+					<div className="experience__content">
+						{data.platform.map((e, i) => (
+							<article className="experience__details" key={i}>
+								<div className="experience__icon_wrapper">
+									<BsPatchCheckFill className="experience__icon" />
+								</div>
+								<div>
+									<h4>{e.name}</h4>
+									{/* <small>{e.description}</small> */}
+								</div>
+							</article>
+						))}
+					</div>
+				</div>
 				<div className="experience__frontend">
 					<h3>Frontend Development</h3>
 					<div className="experience__content">
