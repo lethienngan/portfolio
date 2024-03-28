@@ -1,6 +1,6 @@
 import AVATAR1 from "../../assets/avatar1.jpg";
 import AVATAR2 from "../../assets/avatar2.png";
-import AVATAR3 from "../../assets/avatar3.png";
+import AVATAR3 from "../../assets/avatar3.jpg";
 import AVATAR4 from "../../assets/me-about.jpg";
 import AVATAR5 from "../../assets/avatar5.jpg";
 import AVATAR6 from "../../assets/avatar6.jpg";
