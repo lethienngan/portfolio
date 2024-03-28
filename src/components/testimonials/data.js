@@ -1,8 +1,9 @@
 import AVATAR1 from "../../assets/avatar1.jpg";
 import AVATAR2 from "../../assets/avatar2.png";
-import AVATAR3 from "../../assets/me-about.jpg";
-import AVATAR4 from "../../assets/avatar4.jpg";
+import AVATAR3 from "../../assets/avatar3.png";
+import AVATAR4 from "../../assets/me-about.jpg";
 import AVATAR5 from "../../assets/avatar5.jpg";
+import AVATAR6 from "../../assets/avatar6.jpg";
 
 const data = [
     {
@@ -28,21 +29,21 @@ const data = [
     },
     {
         id: 3,
-        avatar: AVATAR3,
+        avatar: AVATAR4,
         name: "Freelance Developer",
         time: "2+ year",
         review: "Turning to remote development with freelance jobs. Developing & Maintaining for web sytem. Build components depend on customer requirements with supported lib & framework",
     },
     {
         id: 4,
-        avatar: AVATAR4,
+        avatar: AVATAR5,
         name: "Simply Homes, Inc.",
         time: "6 months (freelance - remote)",
         review: "Developing and maintaining Nodejs api-server (build from scratch & deploy to AWS Instance). Working with Hubspot (webhook, api-sdk, workflow and integrated code), Google API (api-sdk, files and folders) and AWS infrastructure (EC2, RDS, Kinesis, S3bucket CloudFront CDN)",
     },
     {
         id: 5,
-        avatar: AVATAR5,
+        avatar: AVATAR6,
         name: "Select Technology, LLC ",
         time: "Until now",
         review: "Developing and maintaining IoT Systems (Backend core and Cloud) to serve various UIs (Frontend, Mobile, Android/iOS tablets, and Android boards) using RESTful API, SSE, websocket, FCM and APNs Working with the OpenHab Platform (Based on the OSGi framework), Lora Protocol, and ChirpStack",
