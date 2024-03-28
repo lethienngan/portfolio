@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import './nav.css'
 import { AiOutlineHome, AiOutlineUser, AiOutlinePhone } from 'react-icons/ai'
 import { BiBook } from 'react-icons/bi'
-import { RiServiceLine } from 'react-icons/ri'
 const Nav = () => {
     const [activeNav, setActiveNav] = useState('#')
     return (

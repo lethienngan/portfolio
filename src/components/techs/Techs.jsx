@@ -2,42 +2,8 @@ import React from "react";
 import { AiOutlineCheck } from "react-icons/ai";
 import Tech from "./tech/Tech";
 import "./Techs.css";
+import data from "./data"
 
-const data = {
-	development: [
-		"Visual Code | Eclipse IDE",
-		"pgAdmin4",
-		"Postman | REST client | Thunder Client",
-		"Redux devTool",
-		"Beyond Compare",
-		"Git",
-		"Jira",
-		"Npm",
-		"PM2 (procress Management)",
-		"Caddy Server",
-	],
-	AutomatedTesting: [
-		"IBM RTRT (Rational Real Time Test)",
-		"Cantata",
-		"Internal testing tool",
-	],
-	libraryFramework: [
-		"Proframe C",
-		"Adobe Flex",
-		"React (CSR-SPA)",
-		"React Router Dom",
-		"Redux",
-		"ExpressJS",
-		"AWS-sdk",
-		"GoogleAPI",
-		"Axios",
-		"Mongoose",
-		"jsonwebtoken",
-		"bcrypt",
-		"... etc",
-	],
-	platform: ["AWS", "Linux-Ubuntu", "Hubspot", "Google API"],
-};
 const Techs = () => {
 	return (
 		<section id="techs">
@@ -50,8 +16,9 @@ const Techs = () => {
 			<div className="container techs__container">
 				{/* <Tech data={data.platform} name={"Platforms"} /> */}
 				<Tech data={data.development} name={"Development"} />
-				<Tech data={data.AutomatedTesting} name={"Automated Testing"} />
+				{/* <Tech data={data.AutomatedTesting} name={"Automated Testing"} /> */}
 				<Tech data={data.libraryFramework} name={"Library & Frameworkd"} />
+				<Tech data={data.platform} name={"Platform"} />
 			</div>
 		</section>
 	);

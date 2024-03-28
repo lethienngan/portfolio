@@ -26,17 +26,17 @@ const About = () => {
                         <article className="about__card">
                             <FaAward className='about_icon' />
                             <h5>Experience</h5>
-                            <small>2+ Year Working in Software Environment</small>
+                            <small>3 Year Working in Software Environment</small>
                         </article>
                         <article className="about__card">
                             <MdDomain className='about_icon' />
                             <h5>Domains</h5>
-                            <small>Web-system <small style={{ textDecoration: 'line-through' }}>Embedded, Embedded Automated Testing</small></small>
+                            <small>Web, Web App, System</small>
                         </article>
                         <article className="about__card">
                             <BsStackOverflow className='about_icon' />
                             <h5>Projects</h5>
-                            <small>Working Projects & some Pet Projects</small>
+                            <small>Company Projects & Freelance Projects</small>
                         </article>
                     </div>
 
