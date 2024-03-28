@@ -7,7 +7,9 @@ import "react-pdf/dist/esm/Page/TextLayer.css";
 import { useState } from "react";
 import Popup from "../popUpModal/Popup";
 
-pdfjs.GlobalWorkerOptions.workerSrc = new URL("pdfjs-dist/build/pdf.worker.min.js", import.meta.url).toString();
+// Error when building app for production
+// pdfjs.GlobalWorkerOptions.workerSrc = new URL("pdfjs-dist/build/pdf.worker.min.js", import.meta.url).toString();
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const CTA = () => {
     const [showPopupPDF, setShowPopupPDF] = useState(false);
